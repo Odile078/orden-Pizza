@@ -81,3 +81,9 @@ margin-bottom: 30px;
 .result{
   display: none;
 }
+/*footer*/
+.footer{
+  background-color: rgb(29, 27, 27);
+  margin-top: -25px;
+  padding-top: 40px;
+}
