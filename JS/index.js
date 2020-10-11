@@ -25,3 +25,13 @@ var slideshows = document.querySelectorAll('[data-component="slideshow"]');
 
     }, time);
   }
+
+
+//Back end code to determine what happens when the oderform is completed.
+//creating a constructor function to pic the pizza options
+function Specification(pizzatype, pizzasize, pizzacrust, pizzatopping) {
+    this.pizzatype = pizzatype;
+    this.pizzasize = pizzasize;
+    this.pizzacrust = pizzacrust;
+    this.pizzatopping = pizzatopping;
+}
