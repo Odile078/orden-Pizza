@@ -41,3 +41,18 @@ nav{
 [data-component="slideshow"] .slide.active {
   display: block;
 }
+ /*products*/
+ .innerimg{
+  overflow:hidden;
+}
+.innerimg img{
+  transition: all 1.5s ease;
+}
+.innerimg:hover img{
+  transform: scale(1.5);
+}
+.card{
+height: 500px;
+margin-top: 30px;
+margin-bottom: 30px;
+}
