@@ -35,3 +35,8 @@ function Specification(pizzatype, pizzasize, pizzacrust, pizzatopping) {
     this.pizzacrust = pizzacrust;
     this.pizzatopping = pizzatopping;
 }
+
+// prototype of the Specification contructor to specify the message containing the specification information given by the customer.
+Specification.prototype.fullSpecification = function () {
+    return this.pizzatype + " with the topping of " + this.pizzatopping + " and " + this.pizzacrust + " as crust.";
+};
