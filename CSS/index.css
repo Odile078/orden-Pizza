@@ -109,3 +109,57 @@ margin-bottom: 30px;
    color:white;
  }
  
+@media screen and ( max-width:1100px){
+  .upperform{
+    width:500px;
+    margin-left: 30%;
+  }
+  .card{
+    margin-left: 2%;
+  }
+  .slides{
+    width: 400px;
+  }
+
+}
+@media screen and ( max-width:800px){
+  .upperform{
+    width:500px;
+    margin-left: 15%;
+  }
+  .card{
+    margin-left: 0px;
+  }
+  .slides{
+    width: 350px;
+  }
+
+}
+
+@media screen and ( max-width:500px){
+  .upperform{
+    width:300px;
+    margin-left: 15%;
+  }
+  .card{
+    margin-left: 15%;
+  }
+  .slides{
+    width: 400px;
+  }
+
+}
+
+@media screen and ( max-width:400px){
+  .upperform{
+    width:250px;
+    margin-left: 0px;
+  }
+  .card{
+    margin-left: 0px;
+  }
+  .slides{
+    width: 250px;
+  }
+
+}
