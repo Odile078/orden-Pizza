@@ -100,3 +100,14 @@ $(document).ready(function () {
 
     });
 
+// Front end to display the message after the submition of the contact form.
+//form validation
+$('form#contactform').submit(function(event){
+    event.preventDefault();
+    var name = $('#name').val();
+    
+    alert("Hello " + name + " ,message succefully sent.");
+    
+  });
+});
+
