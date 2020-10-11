@@ -40,3 +40,14 @@ function Specification(pizzatype, pizzasize, pizzacrust, pizzatopping) {
 Specification.prototype.fullSpecification = function () {
     return this.pizzatype + " with the topping of " + this.pizzatopping + " and " + this.pizzacrust + " as crust.";
 };
+
+//creating a constructor function for variables that will determine the price of the ordered pizza.
+function Totalprice(pizzaprice, pizzaquantity, pizzadelivery) {
+    this.pizzaprice = pizzaprice;
+    this.pizzaquantity = pizzaquantity;
+    this.pizzadelivery = pizzadelivery;
+}
+//creating a prototype for the calculation of the total price of the ordered pizza.
+Totalprice.prototype.finalTotalprice = function () {
+    return this.pizzadelivery + this.pizzaprice * this.pizzaquantity ;
+};
