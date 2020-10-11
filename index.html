@@ -75,7 +75,7 @@
         </div>
     </section>
 
-<!-- Products section-->
+    <!-- Products section-->
     <section id="products">
         <div class="container">
             <h2 class="theader">Our Pizzas</h2>
@@ -183,6 +183,83 @@
                         <p class="card-text">The pizza has a thin cracker-like crust made without yeast, and is topped with Provel cheese, rather than mozzarella. </p>
                         <a href="#order" class="btn btn-primary">Order</a>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--form section-->
+    <section id="order" class="order">
+        <div class="container">
+            <h1 class="theader torder">Make your order</h1>
+            <div class="torder">
+                <p>The price differs as you choose different Pizza size, <b>large:1500RWF</b>, <b>Medium: 900Rwf</b>, <b>Small:750Rwf</b></p>
+                <p>The fee for delivery is <b>200Rwf </b>.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="jumbotron upperform">
+                        <form action="" class="form" id="orderform">
+                            <div class="form-group">
+                                <label for="" >Name</label>
+                                <input type="text " name="name" placeholder="Your name" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Pizza Type</label>
+                                <select name="pizzatype" id="pizzatype"class="form-control" required>
+                                    <option for="">The Original Neapolitan</option>
+                                    <option for="">California Style</option>
+                                    <option for="">Chicago Deep Dish</option>
+                                    <option for="">Chicago Thin Crust</option>
+                                    
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Pizza size</label>
+                                <select name="pizzasize" id="pizzasize"class="form-control" required>
+                                    <option for="" value="1">Large</option>
+                                    <option for="" value="2">Medium</option>
+                                    <option for="" value="3">Small</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for=""> Preferred crust</label>
+                                <select name="pizzacrust" id="pizzacrust"class="form-control" required>
+                                    <option for="">Detroit Style</option>
+                                    <option for="">New England Greek Style</option>
+                                    <option for="">Thin Crust</option>
+                                    <option for="">Small</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for=""> Preferred topping</label>
+                                <select name="pizzatop" id="pizzatop" class="form-control" required>
+                                    <option >pepperoni</option>
+                                    <option >cheese</option>
+                                    <option >mozzarella</option>
+                                    <option >Pizza sauce</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                
+                            <div class="form-group">
+                                <label for=""> Quantity</label>
+                                <input type="number" name="pizzaquantity"id="pizzaquantity" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Delivery Option</label>
+                                <select name="" id="deliveryoption" required>
+                                    <option value="1">Self pick up</option>
+                                    <option value="2">Delivery</option>
+                                
+                                </select>
+                                
+                            </div>
+
+                            <button type="submit" class="btn btn-info" value="reset">Order </button>
+                            
+                        </form>
                     </div>
                 </div>
             </div>
