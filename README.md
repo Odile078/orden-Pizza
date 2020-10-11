@@ -53,8 +53,6 @@ In case you have any question or contributions, please email me at [ouwimpuhwe62
 
 ## License
 
-@ Odile Uwimpuhwe 2020
-
 MIT License
 
 Copyright (c) 2020 Odile Uwimpuhwe
