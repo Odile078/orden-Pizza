@@ -56,3 +56,28 @@ height: 500px;
 margin-top: 30px;
 margin-bottom: 30px;
 }
+/*order*/
+.order{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+.torder{
+  margin-bottom: 40px;
+}
+.upperform{
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: -1px 11px 42px -7px rgba(0,0,0,0.69);
+  border-radius: 10px;
+  border-color: rgb(209, 244, 245);
+  transition: all 0.5s ease;
+  margin-left: 30%;
+  width: 600px;;
+}
+.upperform:hover{
+  transform: scale(1.1);
+}
+.result{
+  display: none;
+}
