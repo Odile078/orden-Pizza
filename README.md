@@ -11,13 +11,13 @@ This is a web program created using HTML, CSS,JS and jquery for ordering Pizza.
 With this website you can see the different types of Pizza available and also be able to order one. 
 
 ## Live Website
-(https://odile078.github.io/DelaniStudio/)
+(https://odile078.github.io/orden-Pizza/)
 
 
 ## Installation / Setup instruction
 * Access your terminal
 
-* Clone  it in  your repository```https://github.com/Odile078/DelaniStudio```
+* Clone  it in  your repository```https://github.com/Odile078/orden-Pizza```
 
 * Or, You can download the zip folder
 
