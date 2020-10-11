@@ -87,3 +87,25 @@ margin-bottom: 30px;
   margin-top: -25px;
   padding-top: 40px;
 }
+
+/**/
+.theader{
+  font-family: 'Sansita Swashed', cursive;;
+   
+ }
+ .card-text{
+   font-family: 'Sansita Swashed', cursive;
+ 
+ }
+ .bcolor{
+   background-color: rgb(228, 228, 139);
+ }
+ a{
+   text-decoration: none;
+   color:black;
+ }
+ a:hover{
+   text-decoration: none;
+   color:white;
+ }
+ 
